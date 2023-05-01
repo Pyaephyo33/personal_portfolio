@@ -1,0 +1,154 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+:root{
+    --first-color: #0d6efd;
+    --second-color: #dc3545;
+    --third-color: #ffffff;
+    --fourth-color: #fd7e14;
+    --bs-blue: #1e30f3;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #e21e80;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #b69121;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #1e30f3;
+    --bs-secondary: #e21e80;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
+
+#skill img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 10%;
+    border: 3px solid var(--first-color);
+    transition: 0.5s;
+}
+
+#skill img:hover{
+    transform: scale(1.03);
+}
+
+#about img{
+    height: 100%;
+    width: 350px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+#about img:hover{
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--bs-blue);
+}
+
+.html{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+.html:hover{
+    background: var(--bs-gray-dark);
+    color: var(--bs-warning);
+}
+
+.css{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+.css:hover{
+    background: var(--bs-gray-dark);
+    color: var(--bs-info);
+}
+
+.javascript{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+.javascript:hover{
+    background: var(--bs-gray-dark);
+    color: var(--bs-yellow);
+}
+
+.bootstrap{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+.bootstrap:hover{
+    background: var(--bs-gray-dark);
+    color: var(--bs-purple);
+}
+
+.laravel{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+.laravel:hover{
+    background: var(--bs-gray-dark);
+    color: var(--bs-red);
+}
+
+.github{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+.github:hover{
+    background: var(--bs-gray-dark);
+    color: var(--bs-gray-200);
+}
+
+#experience img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* #team img:hover{
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--bs-blue);
+} */
+
+#experience .hov{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+#experience .hov:hover{
+    background: var(--bs-gray-dark);
+    color: var(--bs-gray-200);
+}
+
+
+#education .hov{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+#education .hov:hover{
+    background: var(--bs-gray-dark);
+    color: var(--bs-cyan);
+}
+
