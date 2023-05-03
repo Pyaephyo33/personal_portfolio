@@ -39,6 +39,9 @@
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
 }
+body{
+    overflow-x: hidden;
+}
 
 #skill img{
     height: 200px;
@@ -54,17 +57,11 @@
 }
 
 #about img{
-    height: 100%;
-    width: 350px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
-    transition: 0.3s;
 }
-#about img:hover{
-    border-radius: 200px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: var(--bs-blue);
-}
+
 
 .html{
     background: var(--bs-white);
@@ -118,6 +115,35 @@
 .github:hover{
     background: var(--bs-gray-dark);
     color: var(--bs-gray-200);
+}
+
+.vs{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+.vs:hover{
+    background: var(--bs-blue);
+    color: var(--bs-gray-200);
+}
+
+
+.mysql{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+.mysql:hover{
+    background: var(--bs-gray-dark);
+    color: var(--bs-gray-200);
+}
+
+
+.postman{
+    background: var(--bs-white);
+    transition: 0.4s ease-in-out;
+}
+.postman:hover{
+    background: var(--bs-gray-dark);
+    color: var(--bs-orange);
 }
 
 #experience img{
